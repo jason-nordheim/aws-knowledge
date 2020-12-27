@@ -1,0 +1,212 @@
+{
+  "aws": {
+    "glossary": [
+      {
+        "abbr": null,
+        "definition": "Amazon DynamoDB is a fast and flexible NoSQL database service for all applications that need consistent, single-digit millisecond latency at any scale. It is a fully managed database and supports both document and key-value data models.",
+        "name": "DynamoDB"
+      },
+      {
+        "abbr": null,
+        "definition": "AWS service event that invokes a Lambda function",
+        "examples": [
+          "API Gateway",
+          "AWS IoT",
+          "Alexa Skills Kit",
+          "Alexa Smart Home",
+          "CloudFront",
+          "CloudWatch Event",
+          "CloudWatch Logs",
+          "CodeCommit",
+          "CognitoSyncTrigger",
+          "DynamoDB",
+          "Kinesis",
+          "S3",
+          "SNS"
+        ],
+        "name": "Triggers",
+        "related-services": [
+          "Lambda",
+          "API Gateway",
+          "AWS IOT",
+          "Alexa Skills Kit",
+          "Alexa Smart Home",
+          "CloudFront",
+          "CloudWatch Event",
+          "CloudWatch Logs",
+          "CodeCommit",
+          "CognitoSyncTrigger",
+          "DynamoDB",
+          "Kinesis",
+          "S3",
+          "SNS"
+        ]
+      },
+      {
+        "abbr": null,
+        "definition": "Cloud IDE acquired by Amazon that enables you to write code in the browser",
+        "name": "Cloud 9",
+        "related-services": ["Lambda"]
+      },
+      {
+        "abbr": null,
+        "definition": "Allows caching identical responses made to API Gateway endpoints so that responses are delivered from the cache rather than querying back-end services",
+        "name": "API Caching",
+        "related-services": ["API Gateway"],
+        "significance": [
+          "decreases load to back-end services",
+          "reduces latency",
+          "faster response time"
+        ]
+      },
+      {
+        "abbr": null,
+        "definition": "Web application security model in which the web browser permits scripts contained in a first web page to have access to scripts in a second web page, but ONLY if both web pages have the same-origin",
+        "name": "Same origin policy",
+        "related-services": ["API Gateway"],
+        "significance": [
+          "prevents cross-site-scripting attacks",
+          "enforced by web browsers",
+          "ignored by tools like 'Postman' and 'curl'"
+        ]
+      },
+      {
+        "abbr": null,
+        "definition": "pre-configured template, designed to be a starting point for a Lambda function",
+        "name": "Lambda blueprint",
+        "related-services": ["API Gateway", "Lambda"]
+      },
+      {
+        "abbr": "ACL",
+        "name": "Access Control List"
+      },
+      {
+        "abbr": "IOT",
+        "name": "Internet of Things"
+      },
+      {
+        "abbr": "AES",
+        "name": "Advanced Encryption Standard"
+      },
+      {
+        "abbr": "API",
+        "name": "Application Programming Interface"
+      },
+      {
+        "abbr": "ARN",
+        "name": "Amazon Resource Name"
+      },
+      {
+        "abbr": "AWS",
+        "name": "Amazon Web Services"
+      },
+      {
+        "abbr": "AMI",
+        "name": "Amazon Machine Image"
+      },
+      {
+        "abbr": "CDA",
+        "name": "Certified Developer Associate"
+      },
+      {
+        "abbr": "CDN",
+        "name": "Content Delivery Network"
+      },
+      {
+        "abbr": "CORS",
+        "definition": "mechanism in which 'same-origin' policy enforced by browsers is relaxed to allow access to resources from a different domain from which the resource was served",
+        "name": "Cross-origin-resource-sharing",
+        "process": [
+          "Browser makes 'HTTP OPTIONS' call for a URL (OPTIONS is an HTTP method just like GET, PUT, etc.)",
+          "Server returns a response that says ~'these other domains are approved to GET this URL'"
+        ],
+        "significance": [
+          "enables the server to relax same-origin policy",
+          "enables serving resources from multiple domains",
+          "error message: 'origin policy cannot be read at the remote resource...' indicates a CORS configuration problem"
+        ]
+      },
+      {
+        "abbr": "DAX",
+        "name": "DynamoDB Accelerator",
+        "definition": "DAX or DynamoDB Accelerator is highly available, in-memory cache which is optimized for DynamoDB. DAX currently only offers write-through cache. ElastiCache is supported for use with DynamoDB, however it is not specifically optimized for use with DynamoDB."
+      },
+      {
+        "abbr": "DES",
+        "name": "Data Encryption Standard"
+      },
+      {
+        "abbr": "EC",
+        "name": "Elastic Computing"
+      },
+      {
+        "abbr": "HTML",
+        "name": "Hypertext Markup Language"
+      },
+      {
+        "abbr": "KMS",
+        "name": "Key Management Service",
+        "definition": "managed service (integrated with most AWS services) that makes it easy to create and control encryption keys used to encrypt data"
+      },
+      {
+        "abbr": "IAM",
+        "name": "Identity Access Management"
+      },
+      {
+        "abbr": "IAAS",
+        "name": "Infrastructure as a service"
+      },
+      {
+        "abbr": "IDE",
+        "name": "Integrated Development Environment"
+      },
+      {
+        "abbr": "PAAS",
+        "name": "Platform as a service"
+      },
+      {
+        "abbr": "IDEA",
+        "name": "International Data Encryption Algorithm"
+      },
+      {
+        "abbr": "RDS",
+        "name": "Relational Database Service"
+      },
+      {
+        "abbr": "REST",
+        "definition": "Modern form of API. Replaces SOAP APIs.",
+        "name": "Representational State Transfer"
+      },
+      {
+        "abbr": "S3",
+        "definition": "AWS Cloud storage offering",
+        "name": "Simple Storage Service"
+      },
+      {
+        "abbr": "SOAP",
+        "name": "Simple Object Access Protocol"
+      },
+      {
+        "abbr": "TLS",
+        "name": "Transport Layer Security"
+      },
+      {
+        "abbr": "TTL",
+        "name": "Time-to-live"
+      },
+      {
+        "abbr": "WAF",
+        "name": "Web Application Firewall"
+      },
+      {
+        "abbr": "WORM",
+        "name": "Write-once-read-many"
+      },
+      {
+        "abbr": "XSS",
+        "definition": "cyber attack in which malicious scripts are injected into otherwise benign and trusted websites",
+        "name": "Cross-site scripting"
+      }
+    ]
+  }
+}
